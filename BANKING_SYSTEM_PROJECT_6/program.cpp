@@ -60,7 +60,7 @@ public:
     }
     void calculateInterest()
     {
-        double interest = (balance * interestRate) / 100;
+        double interest = (balance * interestRate) ;
         balance += interest;
         cout << "Interest amount is:" << interest << endl;
         cout << "Balance is: " << balance << endl;
